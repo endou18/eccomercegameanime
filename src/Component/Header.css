@@ -1,0 +1,18 @@
+.logo-img1, .logo-img2{
+    box-shadow: 0 0 10px white;
+}
+.logo-img2{
+    display: none;
+}
+@media screen and (max-width:767px) {
+    .logo-img1{
+        display: none;
+    }
+    .logo-img2{
+        display: flex;
+        width: 50px;
+    }
+}
+.all{
+    font-family: "Open Sans", serif;
+}

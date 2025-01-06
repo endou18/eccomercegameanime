@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.heading-banner{
+    font-size: 100px;
+    text-align: left;
+    font-weight: 400;
+}
+.animated-text{
+    color: cyan;
+}
+@media screen and (max-width:1024px) {
+    .banner-outer-container{
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .heading-banner{
+        font-size: 45px;
+        text-align: center;
+    }
+    .heading-container{
+        left: 18% !important;
+    }
+}
